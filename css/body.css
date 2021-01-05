@@ -1,8 +1,24 @@
 h1{
-    background-color: yellow;
+    background-color: rgb(207, 207, 138);
+    border-bottom: 5px solid black;
+    border-top: 5px solid green ;
+    border-right: 5px solid red;
+    border-left: 5px solid blue;  
+    margin-right: 350px;
+    margin-left: 350px;
+    text-align: center;
 }
 
 .p1{
     color: green;
     font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
