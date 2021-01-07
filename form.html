@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="css/forms.css">
+    </head>
+
+    <body>
+        <h1>Forms</h1>
+
+        <form>
+            <div>
+                <label>Name: </label>
+                <input type="text"/> <br>
+            </div>
+            <div>
+                <label>User ID: </label>
+                <input type="text"/>
+            </div>
+          
+            <div>
+              <form>
+                 <label>Gender: </label>
+                 <input type="radio" id="male" name="gender" value="male">
+                 <label for="male">Male</label>
+                 <input type="radio" id="female" name="gender" value="female">
+                 <label for="female">Female</label>
+                 <input type="radio" id="other" name="gender" value="other">
+                 <label for="other">Other</label>
+              </form>
+            </div>
+
+            <div>
+                <label>Courses: </label>
+                <input type="checkbox" name="courses" id="java">
+                <label for="java">Java</label>
+                <input type="checkbox" name="courses" id="python">
+                <label for="java">Python</label>
+                <input type="checkbox" name="courses" id="javascript">
+                <label for="java">Javascript</label>
+            </div>
+
+            <div>
+                <label>Country: </label>
+                <select name="country">
+                    <option value="argentina">Argentina</option>
+                    <option value="argelia">Argelia</option>
+                    <option value="usa">United States</option>
+                    <option value="island">Island</option>
+                    <option value="nkorea">North Korea</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="checkbox" name="accept" id="agree" required>
+                <label for="agree">I understand and accept the license agreement.</label>
+            </div>
+
+            <div>
+                File upload:<input type="file" name="attach1" id="attach1">
+            </div>
+
+            <div>
+                <button>REGISTER</button>
+            </div>
+
+        </form>
+
+    </body>
+
+</html>

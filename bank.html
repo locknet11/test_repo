@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bank S.R.L</title>
+        <link rel="stylesheet" href="css/bank.css">
+        <link href='https://fonts.googleapis.com/css?family=Blinker' rel='stylesheet'>
+    </head>
+    <body>
+        <h1>Bank S.R.L</h1>
+
+        <p class="centered">Personal Loan Application</p>
+
+        <br><br><p class="pright">New York, America <br> Date</p>
+
+        <hr>
+
+        <h3>Personal Details</h3>
+
+        <form>
+            <div>
+                <label>First Name: </label>
+                <input type="text"/>
+            </div>
+            <div>
+                <label>Last Name: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label id="gender">Gender: </label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="male">Other</label>
+            </div>
+            <div>
+                <label for="birth">Date of Birth: </label>
+                <input type="date" name="birth" value="birth">
+            </div>
+            <div>
+                <label for="uid">UID Number: </label>
+                <input type="text" name="uid">
+            </div>
+        </form>
+
+        <br><hr>
+
+        <h3>Address</h3>
+
+        <form>   
+            <div>
+                <label >Area: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Street: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label>PIN Code: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label for="country">Country: </label>
+                <select name="country" id="country" >
+                    <option value="argentina">Argentina</option>
+                    <option value="chile">Chile</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="brazil">Brazil</option>
+                    <option value="usa">United States</option>
+                </select>
+            </div>
+        </form>
+
+        <br><hr>
+
+        <h3>Loan Details</h3>
+
+        <form>
+            <div>
+                <label>Loan Amount: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Account Number: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label>IFSC Code: </label>
+                <input type="text">
+            </div>
+            <div>
+                <label>Type of Account: </label>
+                <input type="radio"  name="credit" value="savings">
+                <label for="savings">Savings</label>
+                <input type="radio" name="credit" value="checking">
+                <label for="checking">Checking</label>
+            </div>
+            <div>
+                <label>Credit Type (If sancioned): </label>
+                <input type="checkbox" name="credit" id="cash">
+                <label for="cash">Cash</label>
+                <input type="checkbox" name="credit" id="cheque">
+                <label for="cheque">Cheque</label>
+            </div>
+            <div>
+                <label>Tenature: </label>
+                <select name="tenature">
+                    <option value="6">6 Months</option>
+                    <option value="12">12 Months</option>
+                    <option value="18">18 Months</option>
+                    <option value="24">24 Months</option>
+                </select>
+            </div>
+        </form>
+
+        <p class="pright">Signature</p>
+
+        <hr>
+
+
+        
+    </body>
+</html>
