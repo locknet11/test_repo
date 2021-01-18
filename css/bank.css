@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher&family=Ubuntu:wght@300&display=swap');
+
 body{
     background-image:url(https://images4.alphacoders.com/667/667236.jpg);
     margin-left: 25px;
@@ -36,7 +40,7 @@ input{
 }
 
 html{
-    font-family: 'Blinker';
+    font-family: "Poppins", "sans-serif";
     color: white;
 }
 
