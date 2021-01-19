@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+body{
+    background-color: #F0F2F5;
+}
+
+h1{
+    font-family: 'Lato';
+    font-size: 70px;
+    color: #1877F2;
+}
+
+h4{
+    padding-left: 30px;
+}
+
+.logo{
+    width:300px;
+    height: 150px;
+    margin-bottom: -30px;
+}
+
+input{
+    margin-top: 15px;
+    padding-block: 25px !important;
+    border-radius: 15px !important;
+}
+
+input::placeholder{
+    font-weight: 300;
+    
+}
+
+form{
+    padding-top: 5px;
+    background-color: white;
+    border-radius: 30px;
+    height: 350px;
+    padding:10px;
+  border:0;
+  box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.166);
+}
+
+.btn-primary{
+    margin-top: 15px;
+    font-size: 18px;
+    width: 100%;
+    font-weight: 600;
+    padding-block: 10px;
+}
+
+.btn-success{
+    background-color: #38b320;
+    display: block !important;
+    margin-top: 15px;
+    font-size: 18px;
+    width: 200px;
+    font-weight: 600;
+    padding-top: 7px;
+    margin-left: 100px;
+}
+
+.forgot{
+    text-align: center;
+    margin-top: 15px;
+    display: block;
+
+}
