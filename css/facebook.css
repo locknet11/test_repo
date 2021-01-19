@@ -47,6 +47,7 @@ form{
     width: 100%;
     font-weight: 600;
     padding-block: 10px;
+    border-radius: 10px !important;
 }
 
 .btn-success{
@@ -58,6 +59,7 @@ form{
     font-weight: 600;
     padding-top: 7px;
     margin-left: 100px;
+    border-radius: 10px !important;
 }
 
 .forgot{
