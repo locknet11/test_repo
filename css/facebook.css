@@ -12,6 +12,7 @@ h1{
 
 h4{
     padding-left: 30px;
+    margin-bottom: -60px
 }
 
 .logo{
@@ -27,18 +28,17 @@ input{
 }
 
 input::placeholder{
-    font-weight: 300;
-    
+    font-weight: 50;
 }
 
 form{
     padding-top: 5px;
     background-color: white;
-    border-radius: 30px;
+    border-radius: 10px;
     height: 350px;
     padding:10px;
   border:0;
-  box-shadow:0 0 15px 4px rgba(0, 0, 0, 0.166);
+  box-shadow:0 0 15px 4px rgba(97, 89, 89, 0.166);
 }
 
 .btn-primary{
@@ -55,10 +55,9 @@ form{
     display: block !important;
     margin-top: 15px;
     font-size: 18px;
-    width: 200px;
+    width: 100%;
     font-weight: 600;
-    padding-top: 7px;
-    margin-left: 100px;
+    padding-top: 7px;   
     border-radius: 10px !important;
 }
 

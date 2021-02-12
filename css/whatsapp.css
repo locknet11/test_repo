@@ -1,0 +1,25 @@
+@import url(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    margin-top: 15px;
+    margin-left: 25px !important;
+
+}
+
+.img-zoom{
+    width: 50px;
+    height: 50px;
+    transition: transform .2s;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.img-zoom:hover{
+    transform: scale(1.2)
+}
+
+
+.radius-img:hover {
+    transform: scale(1.1);
+  }
