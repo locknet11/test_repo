@@ -1,0 +1,18 @@
+.container{
+    display:flex;
+}
+
+.container div{
+    border: 0.1rem black solid;
+    padding: 1rem;
+}
+
+.caja1 {
+    flex: 1;
+}
+
+.caja2{
+    flex: 2; 
+}
+
+
